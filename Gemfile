@@ -40,6 +40,12 @@ gem 'devise', '>= 3.2.4'
 
 gem "factory_girl_rails", "~> 4.0"
 
+gem 'carrierwave', '0.10.0'
+
+gem "figaro"
+
+gem "fog"
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
